@@ -1,0 +1,113 @@
+*{margin: 0;
+padding: 0;}
+li{ 
+    list-style: none;
+    
+   
+}
+a{
+    text-decoration: none;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background: url(../img/20210108_162940078_07ba4b99-898f-45e9-b917-e5c44b538d84\ \(1\).jpg);
+
+}
+
+h3{text-align: center;
+font-size: 50px;
+color: cadetblue;}
+
+.denglu{
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    vertical-align: middle;
+    background: cornsilk;
+    margin: 0 auto;
+
+}
+
+.denglu>ul{
+    width: 700px;
+    height: 68px;
+   margin-left: 200px;
+
+}
+.denglu>ul>li{
+    float: left;
+    
+    padding: 10px;
+
+    
+
+}
+
+.denglu>ul>li>a{
+    color:gray;
+
+    
+}
+.denglu>ol>.one>input{
+    width: 400PX;
+    height: 80PX;
+    font-size: 35px;
+    margin-top: 35px;
+
+}
+.denglu>ol>.one>button{
+    width: 300px;
+    height: 80px;
+    background: gray;
+    margin-top: 35px;
+
+}
+
+
+.denglu>ol>.two>input{
+    width: 400PX;
+    height: 80PX;
+    font-size: 35px;
+    margin-top: 35px;
+
+}
+.denglu>ol>.two>button{
+    width: 300px;
+    height: 80px;
+    background: gray;
+    margin-top: 35px;
+
+}
+.denglu>ol{
+    position: relative;
+
+}
+.denglu>ol>.one{
+    position: relative;
+    display:none;
+
+}
+
+
+.denglu>ol>.two{
+    position: absolute;
+    top: 0;
+    left: 132px;
+    display:none;
+}
+
+
+
+ .denglu>ul> li.active {
+    border-bottom: black;
+  }
+
+ .denglu>ol>li.active{
+     display: block;
+ }
+ 
+
+
